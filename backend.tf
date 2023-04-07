@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "s3-tf-cicd-proj"
-    key = "main"
+    bucket = "my-tf-news3"
+    key = "CEO"
     region = "us-east-1"
-    dynamodb_table = "my-dynamo-table"
+    dynamodb_table = "my-dynamodb-table"
   }
 }
